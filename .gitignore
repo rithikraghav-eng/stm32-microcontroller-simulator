@@ -1,1 +1,19 @@
 __pycache__/\n*.py[cod]\n.venv/\n.vscode/\n.pytest_cache/\n
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Build artifacts
+*.o
+build/
+dist/
